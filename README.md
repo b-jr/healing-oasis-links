@@ -5,7 +5,7 @@ Linktree-style landing page opened by a QR code on printed materials. Static HTM
 ## Files
 
 ```
-index.html      the link page (logo, welcome line, seven buttons)
+index.html      the link page (logo, welcome line, four buttons)
 qr/index.html   redirect stub — printed QR codes point here, it forwards to index.html
 logo.png        (optional) square logo, referenced by index.html; page hides the slot if missing
 ```
@@ -31,7 +31,7 @@ Nothing else to configure. No Actions workflow, no `.nojekyll` needed (no unders
 
 All editable content is in `index.html`:
 
-- **Links** — the `<ul class="links">` block, marked `EDIT THESE LINKS`. Live already: Book a Session (Google Form) and Visit Our Website (`alliswellhealingoasis.com`). Placeholders still to replace: `YOUR_HANDLE` (Instagram), `YOUR_PAGE` (Facebook), `YOUR_REVIEW_LINK` (Google review short link), `+15555555555` (SMS number), and the Maps query.
+- **Links** — the `<ul class="links">` block, marked `EDIT THESE LINKS`. Live already: Intake Paperwork (Google Form) and Visit Our Website (`alliswellhealingoasis.com`). Placeholders still to replace: `YOUR_REVIEW_LINK` (Google review short link) and the Maps query (swap in the street address once it exists).
 - **Copy** — `<h1>` and `<p class="tag">`.
 - **Colors** — CSS custom properties in `:root` at the top of the `<style>` block.
 - **Fonts** — loaded from Google Fonts (Cormorant Garamond, Nunito Sans). Falls back to Georgia / system sans if blocked.
