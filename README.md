@@ -31,7 +31,7 @@ Nothing else to configure. No Actions workflow, no `.nojekyll` needed (no unders
 
 All editable content is in `index.html`:
 
-- **Links** — the `<ul class="links">` block, marked `EDIT THESE LINKS`. Live already: Intake Paperwork (Google Form) and Visit Our Website (`alliswellhealingoasis.com`). Placeholders still to replace: `YOUR_REVIEW_LINK` (Google review short link) and the Maps query (swap in the street address once it exists).
+- **Links** — the `<ul class="links">` block, marked `EDIT THESE LINKS`. All four destinations are live: Intake Paperwork (Google Form), Visit Our Website (`alliswellhealingoasis.com`), and Google/Apple Maps (both pointed at 19815 Grand Ave, Lake Elsinore, CA 92530 — the address is URL-encoded in each `href`, so change both together).
 - **Copy** — `<h1>` and `<p class="tag">`.
 - **Colors** — CSS custom properties in `:root` at the top of the `<style>` block.
 - **Fonts** — loaded from Google Fonts (Cormorant Garamond, Nunito Sans). Falls back to Georgia / system sans if blocked.
